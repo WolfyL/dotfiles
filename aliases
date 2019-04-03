@@ -5,3 +5,15 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+# Quickly serve the current directory as HTTP
+alias s="bin/rails s"
+
+# Shortcut to folders
+alias sk="cd ~/code/WolfyL/Skello"
+
+# Opening shit in VC insiders like it's stt
+alias vc="code-insiders ."
+
+# Others
+alias wip="SKIP=ALL git commit -m 'wip'"
